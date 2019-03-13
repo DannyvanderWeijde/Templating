@@ -1,0 +1,63 @@
+.row{
+	height: 250px;
+}
+
+#photo1{
+	background-image: url("../Images/project1_1.png");
+	background-size: cover;
+}
+
+#photo2{
+	background-image: url("../Images/project2_1.png");
+	background-size: cover;
+}
+
+#photo3{
+	background-image: url("../Images/project4_1.png");
+	background-size: cover;
+}
+
+#photo4{
+	background-image: url("../Images/project5_1.png");
+	background-size: cover;
+}
+
+#photo5{
+	background-image: url("../Images/project6_1.png");
+	background-size: cover;
+}
+
+#photo6{
+	background-image: url("../Images/project7_1.png");
+	background-size: cover;
+}
+
+#photo7{
+	background-image: url("../Images/project8_1.png");
+	background-size: cover;
+}
+
+#photo8{
+	background-image: url("../Images/project9.png");
+	background-size: cover;
+}
+
+#photo9{
+	background-image: url("../Images/project10_1.png");
+	background-size: cover;
+}
+
+#photo10{
+	background-image: url("../Images/project11_1.png");
+	background-size: cover;
+}
+
+#photo11{
+	background-image: url("../Images/project12_1.png");
+	background-size: cover;
+}
+
+#photo12{
+	background-image: url("../Images/project13_1.png");
+	background-size: cover;
+}

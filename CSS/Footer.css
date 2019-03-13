@@ -4,5 +4,13 @@ footer{
 	color: #71BC78;
 	padding-bottom: 5px;
 	padding-top: 5px;
-	margin-top: 15px;
+}
+
+#linkedin{
+	color: #71BC78;
+	transition: 0.5s;
+}
+
+#linkedin:hover{
+	color: white;
 }

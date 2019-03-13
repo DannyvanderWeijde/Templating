@@ -1,0 +1,13 @@
+*{
+	font-family: arial;
+	text-align: center;
+}
+
+h5{
+	background-color: #004225;
+	color: #71BC78;
+}
+
+#date{
+	margin-bottom: -8px;
+}

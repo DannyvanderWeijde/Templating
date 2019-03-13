@@ -2,6 +2,16 @@
 	font-family: arial;
 }
 
+#nav{
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+nav{
+	background-color: #087830;
+}
+
 #navBarName{
 	color: #71BC78;
 	transition: 0.5s;
@@ -47,6 +57,16 @@
 }
 
 #item4:hover{
+	color: white;
+	text-decoration: none;
+}
+
+#item5{
+	color: #71BC78;
+	transition: 0.5s;
+}
+
+#item5:hover{
 	color: white;
 	text-decoration: none;
 }
