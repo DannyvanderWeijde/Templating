@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../CSS/Templating.css">
-    <title>Templating</title>
+    <title>Skills</title>
   </head>
   <body>
-    <script src="../Javascript/Navbar.js"></script>
     <?php include "../HTML/Navbar.html" ?>
     <?php include "../PHP/Date.php" ?>
     <?php include "../HTML/Carousel.html" ?>
@@ -18,8 +17,10 @@
       <div id="textField" class="jumbotron jumbotron-fluid" >
         <div class="container">
           <h1 class="display-4">Mijn Skills!</h1>
-          <p class="lead">Zorgvuldig: Ik wil mijn projecten altijd zo mooi en netjes mogelijk opleveren.</p>
-          <p class="lead">Doorzeter: Ik zal amper opgeven aan projecten en zal niet zomaar projecten laten liggen.</p>
+          <p class="lead"><span class="skills">Zorgvuldig:</span> Ik wil mijn projecten altijd zo mooi en netjes mogelijk opleveren.</p>
+          <p class="lead"><span class="skills">Doorzetter:</span> Ik zal zelden opgeven aan projecten en zal niet zomaar projecten laten liggen.</p>
+          <p class="lead"><span class="skills">Zelfstandig:</span> Ik kan goed zelfstandig werken ookal kan ik ook goed samen werken ben ik wel beter in zelfstandig werken.</p>
+          <p class="lead"><span class="skills">Behulpzaam:</span> Als iemand mij nodig heeft zal ik altijd kijken of ik kan helpen.</p>
         </div>
       </div>
     </div>
@@ -29,4 +30,5 @@
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../Javascript/Navbar.js"></script>
   </body>
