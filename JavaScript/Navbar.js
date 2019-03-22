@@ -48,12 +48,13 @@ function nameBarMove2(){
 function nameBarMove3(){
 	document.getElementById("navBarName").style.left = "-0.1vw";
 	document.getElementById("navBarName").style.top = "0.5vh";
-	setTimeout(nameBarMove4, 100);
+	setTimeout(nameBarMove4, 200);
 }
 
 function nameBarMove4(){
-	document.getElementById("navBarName").style.left = "-0";
+	document.getElementById("navBarName").style.left = "0";
 	document.getElementById("navBarName").style.top = "0";
+	document.getElementById("navBarName").style.transition = "0.5s";
 }
 
 function overMijDrop(){

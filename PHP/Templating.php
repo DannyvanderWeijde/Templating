@@ -12,12 +12,25 @@
   <body>
     <?php include "../HTML/Navbar.html" ?>
     <?php include "../PHP/Date.php" ?>
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol id="breadcrumb" class="breadcrumb">
+          <li class="breadcrumb-item active"><a class="breadCrumbColors" href="Templating.php">Home</a></li>
+        </ol>
+      </nav>
+    </div>
     <?php include "../HTML/Carousel.html" ?>
     <div class="container">
       <div id="textField" class="jumbotron jumbotron-fluid" >
         <div class="container">
-          <h1 class="display-4">Welkom!</h1>
-          <p class="lead">Mijn naam is Danny van der Weijde en ik ben 19 jaar oud. Ik heb eerste de opleiding Mediavormgeving gevolgt voor een jaar en nu volg ik de opleiding Applicatie medewerker. Klik hier om <a id="werkLink" href="Werk.php">mijn werk</a> te vinden en klik hier om <a id="skillsLink" href="Skills.php">mijn skills</a> te vinden.</p>
+          <div class="row">
+            <div class="col-md-3"> 
+              <img id="werkFoto" src="../Images/Werkfoto.jpg"></div>
+            <div id="tekstVak" class="col-md-9">
+              <h1 id="header" class="display-4">Welkom!</h1>
+              <p id="text" class="lead">Mijn naam is Danny van der Weijde en ik ben 19 jaar oud. Ik heb eerste de opleiding Mediavormgeving gevolgt voor een jaar en nu volg ik de opleiding Applicatie medewerker. Klik hier om <a id="werkLink" href="Werk.php">mijn werk</a> te vinden en klik hier om <a id="skillsLink" href="Skills.php">mijn skills</a> te vinden.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -28,4 +41,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="../Javascript/Navbar.js"></script>
+    <script src="../Javascript/Templating.js"></script>
   </body>

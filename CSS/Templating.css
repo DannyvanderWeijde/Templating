@@ -38,3 +38,93 @@
 	background-color: #087830;
 	border: 1px solid #087830;
 }
+
+#werkFoto{
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+	margin-left: 1vw;
+	position: relative;
+	transition: 3s;
+	opacity: 0;
+	right: 15vw;
+}
+
+#tekstVak{
+	margin-top: 9vh;
+}
+
+#header{
+	opacity: 0;
+	transition: 3s;
+	position: relative;
+	bottom: 4vh;
+}
+
+#text{
+	opacity: 0;
+	transition: 3s;
+	position: relative;
+	bottom: 4vh;
+}
+
+#header2{
+	opacity: 0;
+	transition: 3s;
+	position: relative;
+	bottom: 4vh;
+}
+
+#text2{
+	opacity: 0;
+	transition: 3s;
+	position: relative;
+	bottom: 4vh;
+}
+
+#header3{
+	opacity: 0;
+	transition: 3s;
+	position: relative;
+	bottom: 4vh;
+}
+
+#text3{
+	opacity: 0;
+	transition: 3s;
+	position: relative;
+	bottom: 4vh;
+}
+
+#text4{
+	opacity: 0;
+	transition: 3s;
+	position: relative;
+	bottom: 4vh;
+}
+
+#text5{
+	opacity: 0;
+	transition: 3s;
+	position: relative;
+	bottom: 4vh;
+}
+
+#text6{
+	opacity: 0;
+	transition: 3s;
+	position: relative;
+	bottom: 4vh;
+}
+
+#breadcrumb{
+	border-radius: 0;
+	margin-bottom: 0vh;
+}
+
+.breadCrumbColors{
+	color: #71BC78;
+	transition: 0.5s;
+}
+
+.breadCrumbColors:hover{
+	color: #087830;
+}

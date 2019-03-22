@@ -12,6 +12,14 @@
   <body>
     <?php include "../HTML/Navbar.html" ?>
     <?php include "../PHP/Date.php" ?>
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol id="breadcrumb" class="breadcrumb">
+          <li class="breadcrumb-item"><a class="breadCrumbColors" href="Templating.php">Home</a></li>
+          <li class="breadcrumb-item active"><a class="breadCrumbColors" href="contact.php">Contact</a></li>
+        </ol>
+      </nav>
+    </div>
     <?php include "../HTML/Carousel.html" ?>
     <div class="container">
       <span class="verplicht">* Verplicht</span>
